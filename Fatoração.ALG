@@ -1,0 +1,30 @@
+Algoritmo "Fatoramento"
+// Disciplina   : [Algoritmos e Estrutura de Dados]
+// Descrição   : Algoritmo para fatoramento de um número digitado pelo usuário
+// Autor(a)    : Henrique F. Leão
+// Data atual  : 18/03/2024
+Var
+n, cont, i, ant  :inteiro
+
+
+Inicio
+
+escreva("Digite um número para fatorar: ")
+leia(n)
+
+cont <- 0
+i <- n
+ant <- (n-1)
+
+enquanto cont <= n  faca
+  i <- (i * ant)
+  ant <- (ant - 1)
+  escreva(i)
+
+  cont <- cont +1
+
+fimenquanto
+
+
+
+Fimalgoritmo
